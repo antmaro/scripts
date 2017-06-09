@@ -17,7 +17,6 @@ show_help() {
 
 if [ ! ${OPTS} ]; then
         show_help
-        echo $#
         exit 0
 fi
 
